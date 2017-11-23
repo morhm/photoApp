@@ -1,0 +1,8 @@
+.ac-text {
+	width: 60%;
+	border: none;
+}
+
+.ac-text:focus {
+	outline: none;
+}

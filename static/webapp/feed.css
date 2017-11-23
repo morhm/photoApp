@@ -1,0 +1,13 @@
+.item-feed {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-root {
+	background-color: white;
+	border-radius: 4px;
+	margin: 25px;
+	width: 550px;
+	border: 1px solid #E6E6E6;
+}

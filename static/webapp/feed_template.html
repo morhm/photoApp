@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="./feed.css"/>
+
+<div class="feed-container">
+	<div class="item-feed" ng-repeat="item in items">
+		<div class="item-root">
+			<single-item ng-if="item"></single-item>
+			<comments-form ng-if="item"></comments-form>
+		</div>
+	</div>
+</div>

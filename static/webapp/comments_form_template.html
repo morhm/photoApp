@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="./commentsForm.css" />
+
+<div style="padding: 0px 20px 10px" class="addcomment-container">
+	<div style="border-top: 1px solid #E6E6E6; padding: 15px 0px 10px">
+		<form ng-submit="postComment(item.item_id)" class="ac-form" name="commentForm">
+			<input ng-model="c.text" value="" class="ac-text" type="text" name="commentText" placeholder="Add a comment!">
+			<button type="submit" class="ac-button">Post comment</button>
+		</form>
+	</div>
+</div>

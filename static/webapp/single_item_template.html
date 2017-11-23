@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="./singleItemTemplate.css"/>
+
+<div class="item-container">
+	<div class="i-author" style="padding: 10px">
+		<strong>{{getPersonName(item.author_id)}}</strong>
+	</div>
+	<a ng-click="seeItem(item.item_id)">
+		<img class="i-photo" ng-src="{{item.image_url}}"/>
+	</a>
+	<div style="padding: 10px 20px 0px">
+		<div class="i-caption"><strong>{{item.caption}}</strong></div>
+	</div>
+	<div style="padding: 10px 15px">
+		<ul class="i-comments">
+			<li class="i-comment" ng-repeat="comment in item.comments" style="padding: 5px;">
+				<div style="display: inline"><strong>{{ getPersonName(comment.author_id) }}</strong></div>
+				<div style="display: inline">{{ comment.comment }}</div>
+			</li>
+		</ul>
+	</div>
+</div>

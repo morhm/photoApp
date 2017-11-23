@@ -1,0 +1,62 @@
+{
+   "items": [
+      {
+         "item_id": "1", 
+         "caption": "A great photo", 
+         "author_id": "author_1", 
+         "image_url": "dog1.jpg", 
+         "comments": [
+            {
+               "comment": "Cute!", 
+               "author_id": "author_2"
+            }, 
+            {
+               "comment": "Super cute!", 
+               "author_id": "author_3"
+            }
+         ]
+      }, 
+      {
+         "item_id": "2", 
+         "caption": "More doggies!", 
+         "author_id": "author_1", 
+         "image_url": "dog2.jpg", 
+         "comments": [
+            {
+               "comment": "A comment", 
+               "author_id": "author_1"
+            }
+         ]
+      }, 
+      {
+         "item_id": "3", 
+         "caption": "Teeth!", 
+         "author_id": "author_1", 
+         "image_url": "dog3.jpg", 
+         "comments": [
+            {
+               "comment": "Scary", 
+               "author_id": "author_3"
+            }, 
+            {
+               "comment": "Very scary", 
+               "author_id": "author_1"
+            }
+         ]
+      }
+   ], 
+   "people": [
+      {
+         "id": "author_1", 
+         "name": "Peter"
+      }, 
+      {
+         "id": "author_2", 
+         "name": "Paul"
+      }, 
+      {
+         "id": "author_3", 
+         "name": "Mary"
+      }
+   ]
+}
